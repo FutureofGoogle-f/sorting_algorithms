@@ -107,6 +107,6 @@ void radix_sort(int *array, size_t size)
 	{
 		sort_counter(array, size, position);
 		print_array(array, size);
-         	position *= 10;
+		position *= 10;
 	}
 }
